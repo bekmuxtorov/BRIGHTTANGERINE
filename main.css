@@ -1,0 +1,56 @@
+.container{
+    margin:0 auto;
+    width: 90%;
+    font-family: sans-serif;
+}
+
+.title, .main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #959595;
+}
+
+.title-description li{
+    list-style: none;
+    opacity: 0.8;
+    line-height: 1.8;
+    font-size: 14px;
+}
+.title-description span{
+    padding-right: 10px;
+}
+
+.main{
+    padding-top:40px;
+}
+.main > .main-description{
+    width: 70%;
+}
+.main-description h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.main-description p{
+    font-size: 16px;
+    line-height: 1.6
+}
+.main-description li{
+    line-height: 1.5;
+}
+.main-img{
+    border: 2px solid #959595;
+}
+
+.sub-title{
+    opacity: 0.7;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: block;
+    margin-bottom: -10px;
+}
+.full-description p{
+    font-size: 16px;
+    line-height: 1.6
+}
